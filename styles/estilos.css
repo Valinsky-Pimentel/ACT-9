@@ -1,0 +1,83 @@
+body{
+  background-image: url("../images/art-background4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+}
+
+a:link{
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.box-uno{
+  background-color: white;
+  position: absolute;
+  left: 180px;
+  padding: 10px 70px 50px 10px;
+}
+.box-uno p{
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  font-weight:600;
+  line-height: 25px;
+}
+
+.box-dos{
+  position: absolute;
+  top: 15em;
+  width: 30em;
+  left: 180px;
+}
+.box-dos h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+}
+.box-dos h3{
+  font-family: "Times New Roman";
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0.5em;
+}
+
+.box-tres {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 2em;
+}
+
+.box-cuatro {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.box-cinco{
+  font-size: 15px;
+  padding: 1.8em;
+  background: rgba(255, 255, 255, 0.9);
+}
+.box-cinco ul{
+  list-style: none;
+  padding: 0 1em;
+  display: flex;
+  display: inline;
+
+}
+.box-cinco li{
+  display: inline;
+}
+.box-cinco a{
+  padding: 0.25em;
+}
+.box-cinco img{
+  width: 20px;
+  height: 20px;
+}
